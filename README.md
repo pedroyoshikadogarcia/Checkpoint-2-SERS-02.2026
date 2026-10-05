@@ -34,16 +34,6 @@ Observações sobre os dados:
 - Os dados do Open-Meteo são estimativas de modelos/reanálise, não leituras de um sensor.
 - Radiação em W/m² **não equivale** à energia em kWh nem à geração de um painel solar.
 
-## Estrutura do repositório
-
-```
-.
-├── README.md
-├── Aula_APIs_Energia_Renovavel_ML.ipynb   # notebook com consultas, análise e modelos
-├── aneel_classificacao_orange.csv         # dados da Tarefa 1 (potencia_kw, latitude, longitude, fonte)
-└── meteo_regressao_orange.csv             # dados da Tarefa 2 (5 entradas + radiacao_w_m2)
-```
-
 ## Como executar o notebook
 
 ### No Google Colab (recomendado)
